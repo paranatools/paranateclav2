@@ -1034,8 +1034,7 @@
 
         // 2. Carregar o CSS
         try {
-            // !!! IMPORTANTE: SUBSTITUA PELA URL REAL DO SEU CSS NO GITHUB RAW !!!
-            const cssRawUrl = 'URL_PARA_SEU_STYLE_CSS_NO_GITHUB_RAW';
+            const cssRawUrl = 'https://raw.githubusercontent.com/paranatools/paranateclav2/refs/heads/main/style.css';
             await loadCSS(cssRawUrl);
         } catch (error) {
             showCustomAlert(`Falha crítica: Não foi possível carregar os estilos necessários.\n${error.message}`, 'error');
